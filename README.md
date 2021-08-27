@@ -1,2 +1,2 @@
-<title>
-This is personal portfolio website</title>
+
+This is personal portfolio website
