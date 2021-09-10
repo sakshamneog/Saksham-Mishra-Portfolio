@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&family=Zilla+Slab:ital@1&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+
+}
+
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem ;
+}
+
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+hr{
+    margin: 2rem 0rem ;
+}
+
+:root{
+    --primary-color:var(--primary-color);
+    --gray:#E5E7EB;
+    
+
+
+    
+
+
+
+}
+.Link{
+    text-decoration: none;
+    padding: 0.5rem  1rem;
+}
+.Link-primary{
+    background-color: purple;
+    border-radius: 0.5rem;
+    color: white;
+    margin-bottom: 1 rem;
+    margin-top: 4 rem;
+    
+}
+.Link-secondary{
+    color: purple;
+    border-radius: 0.5rem;
+    border: 1px solid purple;
+    margin-bottom: 1rem;
+    margin-top: 1.5 rem;
+}
+
+.list-non-bullet{
+    list-style: none;
+    
+
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0 0.5rem;
+}
+
+.navigation{
+    background-color:purple;
+    color: white;
+    padding: 1rem;
+    
+    border-bottom-left-radius : 0.5rem;
+    
+
+}
+.navigation .nav-pills{
+    color: white;
+    text-align: right;
+}
+
+.navigation .link{
+    color: white;
+    text-decoration: none;
+}
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 1.1rem ;
+}
+.navigation .active-link{
+    font-weight: bold;
+}
+.hero{
+    padding: 2 rem;
+}
+.hero .hero-img {
+    max-width: 389px;
+    display: block;
+    margin: auto;
+
+}
+.hero-heading{
+    text-align: center;
+
+}
+.class{
+color: purple;
+}
+
+section h1{
+    text-align: center;
+    padding: 5 rem ;
+}
+.ow{
+    background-color: var(--gray);
+    padding: 2rem 14rem;
+
+    border-top-right-radius: 00.5rem;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 00.5rem;
+    border-bottom-right-radius: 00.5rem;
+    
+}
+
+.footer{
+    background-color: purple;
+    padding: 2rem;
+    text-align:center;
+    color:white;
+    border-top-right-radius: 1 rem;
+    margin-top: 2rem;
+}
+
+.footer .Link{
+    color: white;
+}
+
+
+
+.footer .ul{
+    padding-inline-start: 0px;
+}
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+
+}
